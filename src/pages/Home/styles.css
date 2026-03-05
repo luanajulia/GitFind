@@ -1,0 +1,96 @@
+.conteudo{
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+
+.info{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+input {
+    border: 1px solid #ffffff;
+    border-radius: 22px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    min-width: 250px;
+    width: 85%;
+    margin-right: 12px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+
+}
+
+button {
+    border: 1px solid #ffffffb4;
+    border-radius: 22px;
+    background: #daa9c3;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-right: 12px;
+    font-family: 'Roboto';
+
+}
+
+.perfil {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border:  1px solid #E5E5E5;
+    margin-right: 32px;
+
+}
+
+.perfil h3 {   
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Roboto';
+
+}
+
+
+
+.perfil span {   
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Roboto';
+
+}
+
+.perfil p {   
+    color: #ffffff;
+    font-size: 12px;
+    margin: 20px  0 0 0;
+    font-family: 'Roboto';
+}
+
+.repositorio {
+    font-size: 32px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+
+}
