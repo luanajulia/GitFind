@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🔍 GitFind - Busca de Repositórios GitHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **GitFind** é uma aplicação web moderna que consome a API do GitHub para facilitar a busca por perfis e repositórios. O projeto foi desenvolvido para oferecer uma interface limpa, intuitiva e funcional para desenvolvedores explorarem o ecossistema do GitHub.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Demonstração
+![Screenshot do GitFind](./nome-da-sua-imagem.png)
+*(Dica: Salve a imagem na pasta do projeto e substitua o nome acima)*
 
-### `npm start`
+## ✨ Funcionalidades
+- [x] **Busca Dinâmica:** Pesquisa de usuários em tempo real através da API oficial.
+- [x] **Perfil Detalhado:** Exibição de foto de perfil, nome, @usuário e bio.
+- [x] **Listagem de Repositórios:** Cards organizados com o nome e a descrição de cada projeto do usuário.
+- [x] **Interface Responsiva:** Design adaptável com uma paleta de cores personalizada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
+O projeto foi construído utilizando as seguintes tecnologias:
+* **React.js**: Para a construção da interface componentizada.
+* **JavaScript (ES6+)**: Lógica de consumo de API e manipulação de estado.
+* **CSS3**: Estilização personalizada (incluindo o tema lilás/rosa).
+* **GitHub API**: Fonte de dados para usuários e repositórios.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Como Executar o Projeto
 
-### `npm test`
+Para rodar este projeto localmente, siga os passos abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/luanajulia/gitfind.git](https://github.com/luanajulia/gitfind.git)
 
-### `npm run build`
+2. **Entre na pasta do projeto:**
+   ```bash
+   cd gitfind
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Instale as dependências:**
+   ```bash
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4. **Inicie a aplicação:**
+   ```bash
+   npm start ´´´
+A aplicação abrirá automaticamente no seu navegador no endereço http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👩‍💻 Autora
+Desenvolvido com ❤️ por Luana Julia.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
