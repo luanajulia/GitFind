@@ -6,7 +6,6 @@ O **GitFind** é uma aplicação web moderna que consome a API do GitHub para fa
 
 ## 📸 Demonstração
 ![Screenshot do GitFind](./preview.png)
-*(Dica: Salve a imagem na pasta do projeto e substitua o nome acima)*
 
 ## ✨ Funcionalidades
 - [x] **Busca Dinâmica:** Pesquisa de usuários em tempo real através da API oficial.
