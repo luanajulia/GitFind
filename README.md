@@ -26,7 +26,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/luanajulia/gitfind.git](https://github.com/luanajulia/gitfind.git)
+   git clone https://github.com/luanajulia/GitFind.git
 
 2. **Entre na pasta do projeto:**
    ```bash
