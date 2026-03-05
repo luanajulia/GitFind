@@ -33,7 +33,6 @@ Para rodar este projeto localmente, siga os passos abaixo:
    ```bash
    cd gitfind
 
-
 3. **Instale as dependências:**
    ```bash
    npm install
@@ -41,7 +40,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 4. **Inicie a aplicação:**
    ```bash
-   npm start ´´´
+   npm start 
 A aplicação abrirá automaticamente no seu navegador no endereço http://localhost:3000.
 
 
